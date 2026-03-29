@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='flex justify-between m-4 p-4'>
             <p className='text-[#2614ac]  font-extrabold text-5xl'>DigiTools</p>
             <div>
-                <ul className='flex gap-4 font-bold '>
+                <ul className='flex gap-4  '>
                     <li>products</li>
                     <li>features</li>
                     <li>Pricing</li>

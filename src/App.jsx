@@ -1,7 +1,7 @@
 import './App.css'
-import Feedback from './Components/feedback/feedback'
 import Mainpart from './Components/introduction/Mainpart'
 import Navbar from './Components/navbar/Navbar'
+import Feedback from './Components/feedback/Feedback'
  
  
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
      <Navbar></Navbar>
      <Mainpart></Mainpart>
-     <Feedback></Feedback>
+   <Feedback></Feedback>
     </>
   )
 }
