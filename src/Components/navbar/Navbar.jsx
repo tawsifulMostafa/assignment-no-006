@@ -17,11 +17,12 @@ const Navbar = () => {
             </div>
             <div className='flex gap-4 content-center justify-center'>
                  <ShoppingCart className='m-2'></ShoppingCart>
-                 <button>login</button>
+                 <button className='btn rounded-2'>login</button>
 
-                 <button className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-2xl'>Get Started</button>
+                 <button className='bg-linear-to-r from-[#4F39F6] to-[#9514FA]   rounded-2xl btn'>Get Started</button>
               
             </div>
+            
                     
 
         </div>
