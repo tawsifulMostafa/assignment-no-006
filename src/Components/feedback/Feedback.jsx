@@ -9,7 +9,7 @@ const Feedback = () => {
                     <p>Active Users</p>
                 </div>
                 <div>
-                    <h1 className='text-5xl mb-3'>200+</h1>
+                    <h1 className='text-5xl mb-3 '>200+</h1>
                     <p>Premium Tools</p>
                 </div>
                 <div>
