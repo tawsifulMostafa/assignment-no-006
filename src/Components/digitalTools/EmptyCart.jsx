@@ -3,7 +3,7 @@ import React from 'react';
 
 const EmptyCart = () => {
     return (
-        <div className='shadow-2xl'>
+        <div className='shadow-2xl h-70'>
             <h3 className='font-bold text-4xl pt-10'>Your Cart</h3>
             <div>
                 <SquareX className='h-20 w-20 mx-auto'></SquareX>

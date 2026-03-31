@@ -1,11 +1,11 @@
 import { ShoppingCart, Menu, X } from 'lucide-react';
 import React, { useState } from 'react';
 
-const Navbar = () => {
+const Navbar = ({cartCount}) => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <div className='flex justify-between items-center m-4 p-4'>
+        <div className='flex justify-between items-center m-4 p-4 sticky top-0 z-50 bg-white'>
             <p className='text-[#2614ac] font-extrabold text-5xl my-3'>DigiTools</p>
 
             {/* Desktop Menu */}
@@ -16,11 +16,13 @@ const Navbar = () => {
                     <li>Pricing</li>
                     <li>Testimonials</li>
                     <li>FAQ</li>
+                    
                 </ul>
             </div>
 
             <div className='hidden lg:flex gap-4 mt-4 items-center'>
-                <ShoppingCart className='m-2' />
+                <ShoppingCart className='m-2 ' />
+                <span>{cartCount}</span>
                 <button className='btn rounded-2'>login</button>
                 <button className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-2xl btn'>Get Started</button>
             </div>
