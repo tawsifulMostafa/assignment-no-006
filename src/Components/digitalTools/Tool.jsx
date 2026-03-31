@@ -11,7 +11,7 @@ const Tool = () => {
     const [selected, setSelected] = useState('products')
 
     return (
-        <div>
+        <div className='mb-30'>
             <div className='flex justify-center'>
                 <button
                     onClick={() => setSelected("products")}
@@ -60,7 +60,7 @@ const Tool = () => {
                             ))}
                         </ul>
 
-                        <button className="mt-auto block text-center bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2.5 rounded-full transition-colors">
+                        <button className="mt-auto block text-center btn btn-primary hover:bg-purple-700 text-white font-semibold py-2.5">
                             Buy Now
                         </button>
 

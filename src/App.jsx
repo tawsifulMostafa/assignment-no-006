@@ -4,6 +4,7 @@ import Navbar from './Components/navbar/Navbar'
 import Feedback from './Components/feedback/feedback'
 import DigitalTools from './Components/digitalTools/DigitalTools'
 import Tool from './Components/digitalTools/Tool'
+import GetStarted from './Components/Get Started/GetStarted'
  
 
 
@@ -17,7 +18,7 @@ function App() {
    <Feedback></Feedback>
    <DigitalTools></DigitalTools>
   <Tool></Tool>
-    
+    <GetStarted></GetStarted>
     </>
   )
 }
