@@ -9,7 +9,7 @@ const GetStarted = () => {
             <h1 className='text-5xl mb-2 text-center font-bold '>Get Started in 3 Steps</h1>
             <p className='text-center mb-5'>Start using premium digital tools in minutes, not hours.</p>
 
-            <div className='grid grid-cols-3 justify-around gap-5 '>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 justify-around gap-5 mx-16'>
 
 
                 <div className='h-70'>
@@ -37,7 +37,7 @@ const GetStarted = () => {
 
                 </div>
                 <div>
-                    <div className='shadow-xl p-4 relative rounded-4xl h-70'>
+                    <div className='shadow-xl p-4 relative rounded-4xl h-70 md:mx-auto'>
                         <div className='absolute right-2.5'>
                             <p className=' text-white bg-purple-500 rounded-2xl w-4'>03</p>
                         </div>

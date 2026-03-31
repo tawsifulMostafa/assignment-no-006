@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Tools from '../../../public/jsonData/Tools.json';
+import { SquareX } from 'lucide-react';
 
 const labelColors = {
     "Best Seller": "bg-orange-100 text-orange-600",
@@ -67,6 +68,9 @@ const Tool = () => {
                     </div>
                 ))}
             </div>
+
+
+
         </div>
     );
 };
