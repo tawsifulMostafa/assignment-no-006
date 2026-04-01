@@ -15,7 +15,7 @@ const GetStarted = () => {
                 <div className='h-70'>
                     <div className='shadow-2xl p-4 relative rounded-4xl h-70'>
                         <div className='absolute right-2.5'>
-                            <p className=' text-white bg-purple-500 rounded-2xl w-4'>01</p>
+                            <p className=' text-white bg-purple-500 rounded-2xl w-5'>01</p>
                         </div>
                         <img className=' mb-2  mx-auto' src={user} alt="" />
                         <h1 className='font-bold text-2xl text-center'>Create Account</h1>
@@ -27,7 +27,7 @@ const GetStarted = () => {
                 <div>
                     <div className=' shadow-2xl p-4 relative rounded-4xl h-70'>
                         <div className='absolute right-2.5'>
-                            <p className=' text-white bg-purple-500 rounded-2xl w-4'>02</p>
+                            <p className=' text-white bg-purple-500 rounded-2xl w-5'>02</p>
                         </div>
                         <img className=' mb-2  mx-auto' src={packageImg} alt="" />
                         <h1 className='font-bold text-2xl text-center'>Choose Products</h1>
@@ -39,7 +39,7 @@ const GetStarted = () => {
                 <div>
                     <div className='shadow-xl p-4 relative rounded-4xl h-70 md:mx-auto'>
                         <div className='absolute right-2.5'>
-                            <p className=' text-white bg-purple-500 rounded-2xl w-4'>03</p>
+                            <p className=' text-white bg-purple-500 rounded-2xl w-5'>03</p>
                         </div>
                         <img className=' mb-2 h-10 mx-auto' src={Play} alt="" />
                         <h2 className='font-bold text-2xl text-center'>Start Creating</h2>
