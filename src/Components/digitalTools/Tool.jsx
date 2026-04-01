@@ -87,11 +87,11 @@ const Tool = ({ cartItems = [], setCartItems }) => {
                         <h3 className='font-bold text-4xl pt-10'>Your Cart</h3>
 
                         {cartItems.map((item, i) => (
-                            <div key={i} className='flex justify-between bg-gray-100 shadow-2xl p-5 mx-20 mt-5 rounded-3xl list-none'>
+                            <div key={i} className='flex justify-between bg-gray-100 shadow-2xl lg:md:p-5 lg:md:mx-20 mt-5 rounded-3xl list-none'>
                                 <div className='flex'>
-                                    <img className='w-10 m-5' src={item.icon} alt="" />
+                                    <img className='w-5 m-3 md:lg:w-10 md:lg:h-5' src={item.icon} alt="" />
                                     <div>
-                                        <li className='font-bold text-[20px]'>{item.title}</li>
+                                        <li className='font-bold lg:md:text-[20px] text-[18px]'>{item.title}</li>
                                         <li className='text-gray-500'>{item.price}</li>
                                     </div>
                                 </div>

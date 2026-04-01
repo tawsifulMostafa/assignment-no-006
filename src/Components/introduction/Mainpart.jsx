@@ -6,7 +6,7 @@ import banner from  '../../assets/banner.png'
 const Mainpart = () => {
     return (
         <div className='lg:md:flex p-4 my-28 justify-between'>
-            <div className='ml-16'>
+            <div className='lg:md:ml-16 ml-5'>
                 <p className='bg-[#E1E7FF] text-purple-800 p-1   rounded-4xl flex gap-2 '><CircleStop></CircleStop> New: AI-Powered Tools Available</p>
             <h1 className='font-semibold text-[40px] my-5'>Supercharge Your <br /> Digital Workflow</h1>
             <p>Access premium AI tools, design assets, templates, and productivity <br />

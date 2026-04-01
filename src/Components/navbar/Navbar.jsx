@@ -1,7 +1,7 @@
 import { ShoppingCart, Menu, X } from 'lucide-react';
 import React, { useState } from 'react';
 
-const Navbar = ({cartCount}) => {
+const Navbar = ({ cartCount }) => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
@@ -16,13 +16,14 @@ const Navbar = ({cartCount}) => {
                     <li>Pricing</li>
                     <li>Testimonials</li>
                     <li>FAQ</li>
-                    
                 </ul>
             </div>
 
             <div className='hidden lg:flex gap-4 mt-4 items-center relative'>
                 <ShoppingCart className='m-2' />
-                <span className='absolute left-4 bottom-5  bg-red-400  h-5 w-5 text-center rounded-full '>{cartCount}</span>
+                <span className='absolute left-4 bottom-5 bg-red-400 h-5 w-5 text-center rounded-full text-white text-xs flex items-center justify-center'>
+                    {cartCount}
+                </span>
                 <button className='btn rounded-2'>login</button>
                 <button className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-2xl btn'>Get Started</button>
             </div>
@@ -43,12 +44,18 @@ const Navbar = ({cartCount}) => {
                         <li>FAQ</li>
                     </ul>
                     <div className='flex gap-4 items-center'>
-                        <ShoppingCart className='m-2' />
+                        <div className='relative'>
+                            <ShoppingCart className='m-2' />
+                            <span className='absolute left-4 bottom-5 bg-red-400 h-5 w-5 text-center rounded-full text-white text-xs flex items-center justify-center'>
+                                {cartCount}
+                            </span>
+                        </div>
                         <button className='btn rounded-2'>login</button>
                         <button className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-2xl btn'>Get Started</button>
                     </div>
                 </div>
             )}
+            
         </div>
     );
 };
